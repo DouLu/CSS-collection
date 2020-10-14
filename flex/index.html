@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>flex 布局</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+  <h2>排列方向</h2>
+  <div class="flex-box row">
+    <p class="box">item</p>
+    <p class="box">item</p>
+    <p class="box">item</p>
+    <p class="box">item</p>
+    <p class="box">item</p>
+  </div>
+  <div class="flex-box col">
+    <p class="box">item</p>
+    <p class="box">item</p>
+    <p class="box">item</p>
+    <p class="box">item</p>
+    <p class="box">item</p>
+  </div>
+  <h2>项目放大</h2>
+  <div class="flex-box">
+    <p class="box">item0</p>
+    <p class="box grow1">item1</p>
+    <p class="box grow2">item2</p>
+    <p class="box">item0</p>
+  </div>
+  <h2>项目缩小</h2>
+  <div class="flex-box width300">
+    <p class="box">item1</p>
+    <p class="box shrink0">item0</p>
+    <p class="box shrink2">item2</p>
+    <p class="box">item1</p>
+  </div>
+  <h2>basis属性单独使用</h2>
+  <div class="flex-box">
+    <p class="box">item1</p>
+    <p class="box">item1</p>
+    <p class="box">item1</p>
+    <p class="box basis">basis108</p>
+    <p class="box">item1</p>
+  </div>
+  <h2>basis属性配合grow</h2>
+  <div class="flex-box">
+    <p class="box">item1</p>
+    <p class="box grow1">grow1</p>
+    <p class="box grow2">grow2</p>
+    <p class="box basis">basis108</p>
+    <p class="box">item1</p>
+  </div>
+  <h2>basis属性配合shrink</h2>
+  <div class="flex-box">
+    <p class="box">item1</p>
+    <p class="box shrink0">shrink0</p>
+    <p class="box shrink2">shrink2</p>
+    <p class="box basis">basis108</p>
+    <p class="box">item1</p>
+  </div>
+</body>
+
+</html>
